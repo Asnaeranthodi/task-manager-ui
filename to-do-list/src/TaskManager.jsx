@@ -49,7 +49,7 @@ const AddTaskForm = ({ addTask, setShowModal }) => {
                     />
                 </div>
                 <div style={{width:"100%",justifyContent:"center",display:"flex",marginTop:"20px"}}>
-                    <button type="submit">Add Task</button>
+                    <button className="para1" type="submit">Add Task</button>
                 </div>
             </div>
         </form>
@@ -107,7 +107,8 @@ function TaskManager() {
 
     return (
         <div className="task-manager">
-            <h1 style={{width:"100%",display:"flex",justifyContent:"center"}}>Task Manager</h1>
+           
+            <h1 style={{width:"100%",display:"flex",justifyContent:"center"}}>TaskEase</h1>
             <div style={{width:"100%",justifyContent:"center",display:"flex"}}>
                 <button onClick={() => setShowModal(true)}>Add Task</button>
             </div>

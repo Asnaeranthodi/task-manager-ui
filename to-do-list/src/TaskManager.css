@@ -1,0 +1,106 @@
+.task-manager {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.task-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-inputs input,
+.task-inputs button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: aquamarine; */
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+  background-color: rgb(241, 236, 240);
+  padding: 9px;
+  border-radius: 6px;
+  /* border-style: hidden; */
+
+}
+
+select{
+  
+  border-radius: 6px;
+}
+
+li{
+  background-color: whitesmoke;
+  border-radius: 9px;
+  text-align: center;
+  box-shadow: '0px 2px 4px rgba(0, 0, 0, 0.1)';
+}
+
+/* .para1:hover{
+  background-color: bisque;
+} */
+
+body{
+  height: 100vh;
+  width: 100%;
+  /* background-color: lavender; */
+  background: linear-gradient(rgba(149, 146, 146, 0.75),rgba(0,0,0,0.75)) ,url(/pexels-judit-peter-1766604.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgba(135, 131, 131, 0.5); */
+}
+
+/* .ease{
+  color: crimson;
+} */
+.task-manager h1{
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
